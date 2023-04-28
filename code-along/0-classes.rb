@@ -15,4 +15,17 @@
 # puts ash_fav_food.class
 # puts ash_fav_food.upcase
 
+class Dog < Hash
+    def speak
+        "bhow bhow"
+    end
+end
 
+my_dog= Dog.new
+puts my_dog.class
+puts my_dog.speak
+my_dog["name"]= "Bella"
+puts "My dog's name is #{my_dog["name"]}. She does #{my_dog.speak}."
+
+# my_dog is the variable
+# Dog is the classification
