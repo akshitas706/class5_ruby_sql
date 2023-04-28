@@ -5,4 +5,14 @@
 
 # String Class
 
+# fav_food = "tacos"
+# ash_fav_food = "rasgulla"
+
+
 # String Methods
+
+# puts fav_food.class
+# puts ash_fav_food.class
+# puts ash_fav_food.upcase
+
+
